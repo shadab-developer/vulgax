@@ -596,11 +596,6 @@ video {
   margin-right: auto;
 }
 
-.mx-1{
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
-
 .mr-0{
   margin-right: 0px;
 }
@@ -617,20 +612,16 @@ video {
   height: auto;
 }
 
-.w-full{
-  width: 100%;
-}
-
 .w-36{
   width: 9rem;
 }
 
-.items-center{
-  align-items: center;
+.w-full{
+  width: 100%;
 }
 
-.justify-center{
-  justify-content: center;
+.items-center{
+  align-items: center;
 }
 
 .justify-between{
@@ -649,23 +640,11 @@ video {
 }
 
 .bg-hero-img{
-  background-image: url('assets/img/header_img.png');
-}
-
-.p-2{
-  padding: 0.5rem;
+  background-image: url('https://shadab-developer.github.io/vulgax/assets/img/header_img.png');
 }
 
 .p-1{
   padding: 0.25rem;
-}
-
-.p-5{
-  padding: 1.25rem;
-}
-
-.p-4{
-  padding: 1rem;
 }
 
 .p-3{
@@ -730,11 +709,6 @@ video {
     padding: 1rem;
   }
 
-  .sm\:text-xs{
-    font-size: 0.75rem;
-    line-height: 1rem;
-  }
-
   .sm\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -750,11 +724,6 @@ video {
     padding: 1rem;
   }
 
-  .md\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
@@ -765,30 +734,9 @@ video {
   .lg\:p-4{
     padding: 1rem;
   }
-
-  .lg\:p-3{
-    padding: 0.75rem;
-  }
-
-  .lg\:p-1{
-    padding: 0.25rem;
-  }
 }
 
 @media (min-width: 1280px){
-  .xl\:m-2{
-    margin: 0.5rem;
-  }
-
-  .xl\:m-4{
-    margin: 1rem;
-  }
-
-  .xl\:mx-2{
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-
   .xl\:p-4{
     padding: 1rem;
   }
