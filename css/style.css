@@ -612,6 +612,14 @@ video {
   height: auto;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
+.h-96{
+  height: 24rem;
+}
+
 .w-36{
   width: 9rem;
 }
@@ -641,6 +649,19 @@ video {
 
 .bg-hero-img{
   background-image: url('https://shadab-developer.github.io/vulgax/assets/img/header_img.png');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-1{
