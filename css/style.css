@@ -622,6 +622,10 @@ video {
   margin: 0.25rem;
 }
 
+.m-auto{
+  margin: auto;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -703,6 +707,14 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
+.mt-16{
+  margin-top: 4rem;
+}
+
 .block{
   display: block;
 }
@@ -739,6 +751,26 @@ video {
   height: 100vh;
 }
 
+.h-3\/4{
+  height: 75%;
+}
+
+.h-4\/5{
+  height: 80%;
+}
+
+.h-96{
+  height: 24rem;
+}
+
+.h-16{
+  height: 4rem;
+}
+
+.h-80{
+  height: 20rem;
+}
+
 .w-36{
   width: 9rem;
 }
@@ -771,16 +803,60 @@ video {
   width: 15rem;
 }
 
+.w-16{
+  width: 4rem;
+}
+
+.w-28{
+  width: 7rem;
+}
+
+.w-80{
+  width: 20rem;
+}
+
+.w-64{
+  width: 16rem;
+}
+
+.w-screen{
+  width: 100vw;
+}
+
 .flex-none{
   flex: none;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.content-center{
+  align-content: center;
 }
 
 .items-center{
   align-items: center;
 }
 
+.justify-center{
+  justify-content: center;
+}
+
 .justify-between{
   justify-content: space-between;
+}
+
+.gap-1{
+  gap: 0.25rem;
+}
+
+.gap-4{
+  gap: 1rem;
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]){
@@ -880,6 +956,18 @@ video {
 
 .bg-center{
   background-position: center;
+}
+
+.bg-top{
+  background-position: top;
+}
+
+.bg-left{
+  background-position: left;
+}
+
+.bg-bottom{
+  background-position: bottom;
 }
 
 .bg-no-repeat{
@@ -1131,6 +1219,10 @@ video {
 @media (min-width: 640px){
   .sm\:flex{
     display: flex;
+  }
+
+  .sm\:flex-row{
+    flex-direction: row;
   }
 
   .sm\:p-4{
