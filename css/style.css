@@ -1173,6 +1173,22 @@ video {
 }
 
 @media (min-width: 1280px){
+  .xl\:ml-4{
+    margin-left: 1rem;
+  }
+
+  .xl\:ml-16{
+    margin-left: 4rem;
+  }
+
+  .xl\:block{
+    display: block;
+  }
+
+  .xl\:inline-block{
+    display: inline-block;
+  }
+
   .xl\:flex{
     display: flex;
   }
