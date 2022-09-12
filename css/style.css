@@ -612,14 +612,6 @@ video {
   height: auto;
 }
 
-.h-10{
-  height: 2.5rem;
-}
-
-.h-96{
-  height: 24rem;
-}
-
 .w-36{
   width: 9rem;
 }
@@ -659,17 +651,16 @@ video {
   background-position: center;
 }
 
-.object-cover{
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .p-1{
   padding: 0.25rem;
 }
 
 .p-3{
   padding: 0.75rem;
+}
+
+.p-28{
+  padding: 7rem;
 }
 
 .pt-2{
