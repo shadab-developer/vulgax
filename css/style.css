@@ -1137,6 +1137,10 @@ video {
     padding: 1rem;
   }
 
+  .sm\:pr-4{
+    padding-right: 1rem;
+  }
+
   .sm\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
@@ -1175,6 +1179,22 @@ video {
 
   .xl\:p-4{
     padding: 1rem;
+  }
+
+  .xl\:pr-16{
+    padding-right: 4rem;
+  }
+
+  .xl\:pr-32{
+    padding-right: 8rem;
+  }
+
+  .xl\:pt-32{
+    padding-top: 8rem;
+  }
+
+  .xl\:pt-12{
+    padding-top: 3rem;
   }
 }
 
