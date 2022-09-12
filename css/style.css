@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap");
+
 /*
 ! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
 */
@@ -624,18 +626,6 @@ video {
   flex: none;
 }
 
-.flex-1{
-  flex: 1 1 0%;
-}
-
-.flex-row-reverse{
-  flex-direction: row-reverse;
-}
-
-.flex-col-reverse{
-  flex-direction: column-reverse;
-}
-
 .items-center{
   align-items: center;
 }
@@ -675,18 +665,6 @@ video {
   padding: 0.75rem;
 }
 
-.p-28{
-  padding: 7rem;
-}
-
-.p-10{
-  padding: 2.5rem;
-}
-
-.p-12{
-  padding: 3rem;
-}
-
 .p-14{
   padding: 3.5rem;
 }
@@ -703,9 +681,18 @@ video {
   font-family: Montserrat, sans-serif;
 }
 
+.font-QwitcherGrypen{
+  font-family: Qwitcher Grypen, cursive;
+}
+
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-semibold{
