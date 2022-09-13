@@ -638,16 +638,8 @@ video {
   display: none;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
 .h-auto{
   height: auto;
-}
-
-.h-96{
-  height: 24rem;
 }
 
 .w-36{
@@ -853,6 +845,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-semibold{
   font-weight: 600;
 }
@@ -927,12 +924,34 @@ video {
     display: flex;
   }
 
+  .sm\:w-48{
+    width: 12rem;
+  }
+
   .sm\:flex-row{
     flex-direction: row;
   }
 
+  .sm\:gap-2{
+    gap: 0.5rem;
+  }
+
+  .sm\:gap-4{
+    gap: 1rem;
+  }
+
   .sm\:p-4{
     padding: 1rem;
+  }
+
+  .sm\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .sm\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .sm\:pr-4{
@@ -943,6 +962,11 @@ video {
     font-size: 0.75rem;
     line-height: 1rem;
   }
+
+  .sm\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }
 
 @media (min-width: 768px){
@@ -950,19 +974,74 @@ video {
     display: flex;
   }
 
+  .md\:w-56{
+    width: 14rem;
+  }
+
   .md\:p-4{
     padding: 1rem;
+  }
+
+  .md\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .md\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .md\:px-2{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
   }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-xs{
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .md\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 640px){
+  @media (min-width: 768px){
+    .sm\:md\:text-xs{
+      font-size: 0.75rem;
+      line-height: 1rem;
+    }
+  }
 }
 
 @media (min-width: 1024px){
   .lg\:flex{
     display: flex;
+  }
+
+  .lg\:w-72{
+    width: 18rem;
+  }
+
+  .lg\:gap-6{
+    gap: 1.5rem;
+  }
+
+  .lg\:gap-2{
+    gap: 0.5rem;
   }
 
   .lg\:p-4{
@@ -991,16 +1070,12 @@ video {
     padding-right: 8rem;
   }
 
-  .xl\:pt-12{
-    padding-top: 3rem;
-  }
-
-  .xl\:pb-32{
-    padding-bottom: 8rem;
-  }
-
   .xl\:pb-64{
     padding-bottom: 16rem;
+  }
+
+  .xl\:pt-12{
+    padding-top: 3rem;
   }
 }
 
