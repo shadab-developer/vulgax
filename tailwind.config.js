@@ -26,6 +26,7 @@ module.exports = {
         teak: "#d2d3c1",
         black: "#000000",
         orangeLight: "#FDE6D4",
+        orangeLight1: "#f89855",
         brownDark: "#564131",
         orangeDark: "#FA8632",
       },
