@@ -17,6 +17,8 @@ module.exports = {
 
       colors: {
         white: "#ffffff",
+        grey: "#efefef",
+        greyDark: "#d9d9db",
         springWood: "#F8F5F2",
         bizarre: "#EADDD1",
         coralReef: "#C7AFA5",
@@ -24,6 +26,7 @@ module.exports = {
         teak: "#d2d3c1",
         black: "#000000",
         orangeLight: "#FDE6D4",
+        brownDark: "#564131",
         orangeDark: "#FA8632",
       },
       fontFamily: {
