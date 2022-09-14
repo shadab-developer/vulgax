@@ -626,8 +626,8 @@ video {
   margin-bottom: 2rem;
 }
 
-.mt-1{
-  margin-top: 0.25rem;
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .mt-2{
@@ -636,10 +636,6 @@ video {
 
 .mt-4{
   margin-top: 1rem;
-}
-
-.mt-10{
-  margin-top: 2.5rem;
 }
 
 .block{
@@ -774,6 +770,10 @@ video {
   background-image: url('https://shadab-developer.github.io/vulgax/assets/img/header_img.png');
 }
 
+.bg-shape-img{
+  background-image: url('https://shadab-developer.github.io/vulgax/assets/img/shape.png');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -811,6 +811,11 @@ video {
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pt-2{
@@ -870,6 +875,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-semibold{
   font-weight: 600;
 }
@@ -919,6 +929,11 @@ video {
 .text-orangeLight1{
   --tw-text-opacity: 1;
   color: rgb(248 152 85 / var(--tw-text-opacity));
+}
+
+.line-through{
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
 }
 
 .opacity-75{

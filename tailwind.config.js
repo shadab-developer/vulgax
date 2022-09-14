@@ -13,6 +13,9 @@ module.exports = {
       backgroundImage: {
         "hero-img":
           "url('https://shadab-developer.github.io/vulgax/assets/img/header_img.png')",
+
+        "shape-img":
+          "url('https://shadab-developer.github.io/vulgax/assets/img/shape.png')",
       },
 
       colors: {
