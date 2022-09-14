@@ -1011,6 +1011,14 @@ video {
     gap: 4rem;
   }
 
+  .sm\:gap-32{
+    gap: 8rem;
+  }
+
+  .sm\:gap-28{
+    gap: 7rem;
+  }
+
   .sm\:p-4{
     padding: 1rem;
   }
@@ -1075,6 +1083,10 @@ video {
 
   .md\:gap-32{
     gap: 8rem;
+  }
+
+  .md\:gap-44{
+    gap: 11rem;
   }
 
   .md\:p-4{
