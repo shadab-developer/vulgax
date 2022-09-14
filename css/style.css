@@ -1085,6 +1085,10 @@ video {
     width: 24rem;
   }
 
+  .lg\:w-56{
+    width: 14rem;
+  }
+
   .lg\:gap-8{
     gap: 2rem;
   }
@@ -1105,6 +1109,10 @@ video {
 
   .xl\:flex{
     display: flex;
+  }
+
+  .xl\:w-64{
+    width: 16rem;
   }
 
   .xl\:gap-8{
