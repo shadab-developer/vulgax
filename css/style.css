@@ -646,6 +646,10 @@ video {
   margin-bottom: 3rem;
 }
 
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .block{
   display: block;
 }
@@ -680,6 +684,10 @@ video {
 
 .w-24{
   width: 6rem;
+}
+
+.w-9\/12{
+  width: 75%;
 }
 
 .flex-none{
