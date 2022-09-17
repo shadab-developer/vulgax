@@ -27,6 +27,7 @@ module.exports = {
         coralReef: "#C7AFA5",
         tuatara: "#403f3d",
         teak: "#d2d3c1",
+        teakDark: "#fef5ed",
         black: "#000000",
         orangeLight: "#FDE6D4",
         orangeLight1: "#f89855",
