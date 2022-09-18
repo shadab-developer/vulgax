@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/just-signature");
 
 /*
 ! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
@@ -654,6 +654,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mt-6{
+  margin-top: 1.5rem;
+}
+
 .block{
   display: block;
 }
@@ -696,10 +700,6 @@ video {
 
 .w-4{
   width: 1rem;
-}
-
-.w-14{
-  width: 3.5rem;
 }
 
 .w-52{
@@ -884,11 +884,6 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .py-12{
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -934,8 +929,8 @@ video {
   font-family: Montserrat, sans-serif;
 }
 
-.font-QwitcherGrypen{
-  font-family: Qwitcher Grypen, cursive;
+.font-JustSignature{
+  font-family: Just Signature, sans-serif;
 }
 
 .text-xs{
@@ -966,6 +961,11 @@ video {
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-semibold{

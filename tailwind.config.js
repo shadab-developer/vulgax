@@ -36,7 +36,7 @@ module.exports = {
       },
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
-        QwitcherGrypen: ["Qwitcher Grypen", "cursive"],
+        JustSignature: ["Just Signature", "sans-serif"],
       },
     },
   },
