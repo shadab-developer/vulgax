@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/custom.css" />
     <title>Vulgax : Shop hoodies , t-shirt</title>
   </head>
-  <body class="font-Montserrat mr-0">
+  <div class="font-Montserrat mr-0">
     <!-- Nav Bar and hero Image Started-->
     <div class="bg-hero-img bg-center bg-cover bg-no-repeat">
       <div
@@ -162,45 +162,50 @@
       Trending <span class="text-brownDark">Products</span>
     </h2>
     </div>
+
+
     <div class="bg-orangeLight">
-    <div class="container pb-24 mx-auto flex justify-evenly items-center">
-      <div class="relative">
-        <img class="w-96 relative box-shadow-1 h-auto top-24 -left-44" src="assets/img/trend 3.png" alt="Trendng Product 2" >
-        <img class="w-96 relative box-shadow-1 h-auto z-30" src="assets/img/trend 2.png" alt="Trendng Product 1" >
+      <div class="container pb-24 mx-auto flex flex-col sm:flex-row justify-evenly items-center gap-5 sm:gap-0">
+        <div class="relative shadow1 flex flex-col sm:flex-row items-center">
+          <img class="w-2/5 relative  h-auto top-10 -left-14 sm:-left-44" src="assets/img/trend 3.png" alt="Trendng Product 2" >
+          <img class="w-2/5 relative  h-auto z-30 left-12 sm:left-0" src="assets/img/trend 2.png" alt="Trendng Product 1" >
+        </div>
+        <div class="flex flex-col justify-center items-center">
+           <p class="text-center">
+           <span class="text-orangeDark uppercase text-3xl font-semibold">Men'S</span><br />
+           <span class="text-3xl font-bold uppercase">Westen Wear </span><br />
+           <span class="font-semibold text-2xl">40% - 50% </span>off
+           </p>
+           <br /><br />
+           <h5 class="">Starting AT &#8377;8</h5>
+           <button class="bg-white text-orangeLight1 px-4 py-1 border-tuatara border rounded-lg"><a href="#">Explore Now</a></button>
+        </div>
       </div>
-      <div class="flex flex-col justify-center items-center">
-        <p class="text-center">
-      <span class="text-orangeDark uppercase text-3xl font-semibold">Men'S</span><br />
-      <span class="text-3xl font-bold uppercase">Westen Wear </span><br />
-      <span class="font-semibold text-2xl">40% - 50% </span>off
-    </p>
-    <br /><br />
-    <h5 class="">Starting AT &#8377;8</h5>
-    <button class="bg-white text-orangeLight1 px-4 py-1 border-tuatara border rounded-lg"><a href="#">Explore Now</a></button>
+     </div>
+
+
+    <div class="w-9/12 my-6 flex items-center mx-auto justify-center border-greyDark border-t"
+    >
+    </div>
+
+    <div class="bg-orangeLight">
+      <div class="container pb-24 pt-10 sm:pt-0 mx-auto flex flex-col sm:flex-row justify-evenly items-center ">
+        <div class="flex flex-col justify-center items-center">
+          <p class="text-center">
+            <span class="text-orangeDark uppercase text-3xl font-semibold">Men'S</span><br />
+            <span class="text-3xl font-bold uppercase">Westen Wear </span><br />
+            <span class="font-semibold text-2xl">40% - 50% </span>off
+          </p>
+            <br /><br />
+          <h5 class="">Starting AT &#8377;8</h5>
+          <button class="bg-white text-orangeLight1 px-4 py-1 border-tuatara border rounded-lg"><a href="#">Explore Now</a></button>
+        </div>
+        <div class="relative shadow1 flex flex-col sm:flex-row justify-evenly items-center">
+        <img class="w-2/5 relative  h-auto top-10 left-14 sm:left-44" src="assets/img/hoodi 1.png" alt="Trendng Product 2" >
+        <img class="w-2/5 relative  h-auto z-30 -left-12 sm:-left-0" src="assets/img/hoodie 2.png" alt="Trendng Product 1" >
+        </div>
       </div>
     </div>
-     </div>
-<div
-      class="w-9/12 my-6 flex items-center mx-auto justify-center border-greyDark border-t"
-    ></div>
-     <div class="bg-orangeLight">
-    <div class="container pb-24 mx-auto flex justify-evenly items-center">
-      <div class="relative">
-        <img class="w-96 relative box-shadow-1 h-auto top-24 -left-44" src="assets/img/trend 3.png" alt="Trendng Product 2" >
-        <img class="w-96 relative box-shadow-1 h-auto z-30" src="assets/img/trend 2.png" alt="Trendng Product 1" >
-      </div>
-      <div class="flex flex-col justify-center items-center">
-        <p class="text-center">
-      <span class="text-orangeDark uppercase text-3xl font-semibold">Men'S</span><br />
-      <span class="text-3xl font-bold uppercase">Westen Wear </span><br />
-      <span class="font-semibold text-2xl">40% - 50% </span>off
-    </p>
-    <br /><br />
-    <h5 class="">Starting AT &#8377;8</h5>
-    <button class="bg-white text-orangeLight1 px-4 py-1 border-tuatara border rounded-lg"><a href="#">Explore Now</a></button>
-      </div>
-    </div>
-     </div>
 
     <!-- Trending Product Section END-->
 
@@ -239,7 +244,7 @@
             </p>
             <button
               type="submit"
-              class="text-white mt-4 bg-orangeDark px-6 py-1"
+              class="text-white mt-4  bg-orangeDark px-6 py-1"
             >
               Buy Now
             </button>

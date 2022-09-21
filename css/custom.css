@@ -12,3 +12,31 @@
 .cubic-bezier {
   transition: all 1s cubic-bezier((1, -0.11, 0, 0.75));
 }
+.shadow1 img {
+  transition: 0.5s ease;
+}
+
+.shadow1 img:hover {
+  box-shadow: 1px 1px #373737, 2px 2px #373737, 3px 3px #373737, 4px 4px #373737,
+    5px 5px #373737, 6px 6px #373737;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  transition: 0.5s ease;
+}
+.product-img::before {
+  z-index: 0;
+  height: 68%;
+  width: 100%;
+  border-radius: 50%;
+  padding-bottom: 60%;
+  background-color: #fff;
+}
+.product-img::before {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-70%, -50%);
+}
