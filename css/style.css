@@ -1232,6 +1232,10 @@ video {
     width: 5rem;
   }
 
+  .sm\:flex-none{
+    flex: none;
+  }
+
   .sm\:flex-row{
     flex-direction: row;
   }
