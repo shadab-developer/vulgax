@@ -906,6 +906,10 @@ video {
   width: auto;
 }
 
+.w-10\/12{
+  width: 83.333333%;
+}
+
 .max-w-2xl{
   max-width: 42rem;
 }
@@ -1365,6 +1369,14 @@ video {
 
 .uppercase{
   text-transform: uppercase;
+}
+
+.leading-3{
+  line-height: .75rem;
+}
+
+.leading-10{
+  line-height: 2.5rem;
 }
 
 .text-tuatara{
