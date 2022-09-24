@@ -10,11 +10,11 @@
   </head>
   <body class="font-Montserrat mr-0">
     <!-- NAV and Logo Section Started-->
-    <nav class="container py-4 mx-auto flex flex-col sm:flex-row justify-between items-center">
+    <nav class="container py-4 md:px-4 mx-auto flex flex-col sm:flex-row justify-between items-center sm:gap-3">
       <div class="logo">
         <a href="index.html">
           <img
-            class="w-36 h-auto"
+            class="w-36 sm:w-28 h-auto"
             src="assets/img/logo.png"
             alt="VulgaX Logo"
           />
@@ -22,24 +22,24 @@
       </div>
 
       <div
-        class="search my-4 sm:my-0 sm:w-2/4 bg-grey px-1 py-3 rounded-2xl flex justify-center items-center gap-8"
+        class="search sm:hidden md:flex sm:invisible md:visible my-4 sm:my-0 sm:w-2/4 bg-grey px-2 sm:px-0 py-3 rounded-2xl flex justify-center items-center gap-4 md:gap-2"
       >
-        <p>
+        <p class="text-sm sm:-ml-10">
           Deliver to <span class="text-orangeDark"><a href="">110043</a></span>
         </p>
         <div class="border-greyDark h-5 border-r-2"></div>
         <input
-          class="bg-grey w-2/4 border-none outline-none"
+          class="bg-grey text-sm w-2/5 md:w-3/6 border-none outline-none"
           type="text"
           placeholder="Search for t-shirts , hoodies and more"
         />
         <button type="submit">
-          <img class="w-6" src="assets/img/search.png" alt="" />
+          <img class="w-6 sm:w-4 " src="assets/img/search.png" alt="" />
         </button>
       </div>
 
       <div class="nav-links">
-        <ul class="flex justify-center items-center gap-10">
+        <ul class="flex justify-center items-center gap-10 sm:gap-5">
           <li>
             <a
               class="flex text-sm flex-col justify-center items-center"
@@ -65,25 +65,25 @@
         </ul>
       </div>
     </nav>
-    <section class="container mx-auto secondry-menu">
+    <section class="container md:px-4 mx-auto secondry-menu">
       <div
         class="w-1/2 flex mb-4 items-center mx-auto justify-center border-grey border-t"
       ></div>
       <ul class="flex justify-center items-center gap-10">
         <li>
-          <a class="text-sm" href="index.html">T-SHIRT</a>
+          <a class="text-xs sm:text-sm" href="index.html">T-SHIRT</a>
         </li>
         <li>
-          <a class="text-sm" href="./shop.html">TRACK PANTS</a>
+          <a class="text-xs sm:text-sm" href="./shop.html">TRACK PANTS</a>
         </li>
         <li>
-          <a class="text-sm" href="about.html">HOODIES</a>
+          <a class="text-xs sm:text-sm" href="about.html">HOODIES</a>
         </li>
         <li>
-          <a class="text-sm" href="contact.html">CAPS</a>
+          <a class="text-xs sm:text-sm" href="contact.html">CAPS</a>
         </li>
         <li>
-          <a class="text-sm" href="contact.html">MASK</a>
+          <a class="text-xs sm:text-sm" href="contact.html">MASK</a>
         </li>
       </ul>
     </section>
@@ -93,10 +93,10 @@
     <!-- NAV and Logo Section END-->
 
     <!-- Product Section Started-->
-    <section class="container w-10/12  mx-auto flex flex-col sm:flex-row justify-between py-10">
+    <section class="container md:px-4 px-5 sm:px-0 mx-auto flex flex-col sm:flex-row justify-between py-10 sm:gap-7">
       <div class="product_details ">
         <div class="product_title">
-          <h2 class="text-2xl font-bold text-brownDark">Unisex hoddie with triple color mark</h2>
+          <h2 class="text-2xl sm:text-xl font-bold text-brownDark">Unisex hoddie with triple color mark</h2>
           <p class="text-orangeDark">By vulgax orginals</p>
         </div>
         <div class="product_price">
@@ -111,16 +111,15 @@
         </div>
         <div class="product-attributes mt-5">
           <div class="size">
-            <div class="flex w-80 justify-between items-center">
+            <div class="flex w-80 sm:w-60 justify-between items-center">
               <p class="text-sm font-medium uppercase">Size chart</p>
-        /-  13. 140
-      =-87641\   <p class="underline">Size Guide</p>
+              <p class="underline">Size Guide</p>
             </div>
-            <div class="w-80 px-2 flex justify-between items-center border-2 border-tuatara rounded-sm mt-2">
-              <button class="w-8 h-8 font-medium">S</button><div class="border-greyDark h-5 border-r-2"></div>
-              <button class="w-8 h-8 font-medium">M</button><div class="border-greyDark h-5 border-r-2"></div>
-              <button class="w-8 h-8 font-medium">L</button><div class="border-greyDark h-5 border-r-2"></div>
-              <button class="w-8 h-8 font-medium">XL</button><div class="border-greyDark h-5 border-r-2"></div>
+            <div class="w-60 px-2 flex justify-between items-center border-2 border-tuatara rounded-sm mt-2">
+              <button class="w-8 h-8 font-medium hover:text-orangeDark">S</button><div class="border-greyDark h-5 border-r-2"></div>
+              <button class="w-8 h-8 font-medium hover:text-orangeDark">M</button><div class="border-greyDark h-5 border-r-2"></div>
+              <button class="w-8 h-8 font-medium hover:text-orangeDark">L</button><div class="border-greyDark h-5 border-r-2"></div>
+              <button class="w-8 h-8 font-medium hover:text-orangeDark">XL</button><div class="border-greyDark h-5 border-r-2"></div>
               <button class="w-8 h-8 font-medium text-orangeDark">XXL</button>
             </div>
           </div>
@@ -154,8 +153,8 @@
         class="bg-grey my-4 w-9/12 flex items-center rounded-full mx-auto justify-center border-greyDark border-t-2"
       ></div>
 
-      <div class="product-specs  container mx-auto flex flex-col sm:flex-row justify-between">
-        <div class="w-3/4">
+      <div class="product-specs md:px-4 container px-5 sm:px-0 mx-auto flex flex-col sm:flex-row justify-between">
+        <div class="sm:w-2/3">
           <h1 class="text-3xl font-bold text-brownDark">PRODCUT DETAILS</h1>
           <p class="leading-10">
             Regular Fit
@@ -176,9 +175,9 @@
             Commodity : Unisex Hoodies
           </p>
         </div>
-        <div class="">
+        <div class="flex flex-col gap-4">
           <button type="submit" class="font-semibold underline">Write A Review ></button>
-          <ul class="flex justify-center">
+          <ul class="flex justify-start">
             <li>
               <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                 <path class="fill-orangeDark" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
@@ -211,7 +210,7 @@
     <!-- Product Section ENDED-->
 
     <!-- Related Product Section START-->
-    <div class="container mx-auto py-16">
+    <div class="container mx-auto px-5 md:px-4 sm:px-0 py-16">
       <h2 class="text-3xl font-semibold text-gray-700 mb-8">Related Products</h2>
       <div class="flex flex-col sm:grid grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
