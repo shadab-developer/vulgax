@@ -1025,6 +1025,10 @@ video {
   gap: 1rem;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
 .space-x-6 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
@@ -1228,6 +1232,10 @@ video {
 
 .bg-cover{
   background-size: cover;
+}
+
+.bg-contain{
+  background-size: contain;
 }
 
 .bg-center{
@@ -1526,6 +1534,15 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.visited\:text-orangeDark:visited{
+  color: rgb(250 134 50 );
+}
+
+.checked\:text-orangeDark:checked{
+  --tw-text-opacity: 1;
+  color: rgb(250 134 50 / var(--tw-text-opacity));
+}
+
 .hover\:bg-violet-600:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(124 58 237 / var(--tw-bg-opacity));
@@ -1571,6 +1588,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.focus\:text-orangeDark:focus{
+  --tw-text-opacity: 1;
+  color: rgb(250 134 50 / var(--tw-text-opacity));
+}
+
 .focus\:outline-none:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1595,6 +1617,11 @@ video {
 .active\:bg-violet-700:active{
   --tw-bg-opacity: 1;
   background-color: rgb(109 40 217 / var(--tw-bg-opacity));
+}
+
+.active\:text-orangeDark:active{
+  --tw-text-opacity: 1;
+  color: rgb(250 134 50 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:bg-white\/50{
