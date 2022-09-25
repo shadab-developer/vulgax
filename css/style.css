@@ -1802,6 +1802,10 @@ video {
     gap: 0.75rem;
   }
 
+  .sm\:gap-10{
+    gap: 2.5rem;
+  }
+
   .sm\:p-4{
     padding: 1rem;
   }
