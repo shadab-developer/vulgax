@@ -2052,6 +2052,10 @@ video {
     gap: 12rem;
   }
 
+  .lg\:gap-10{
+    gap: 2.5rem;
+  }
+
   .lg\:p-4{
     padding: 1rem;
   }
