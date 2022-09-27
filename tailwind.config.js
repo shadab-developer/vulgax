@@ -18,6 +18,9 @@ module.exports = {
 
         "shape-img":
           "url('https://shadab-developer.github.io/vulgax/assets/img/shape.png')",
+
+        "login-reg--bg-img":
+          "url('https://shadab-developer.github.io/vulgax/assets/img/background_login_reg.png')",
       },
 
       colors: {
