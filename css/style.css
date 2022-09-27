@@ -862,6 +862,10 @@ video {
   width: 14rem;
 }
 
+.w-1\/4{
+  width: 25%;
+}
+
 .flex-none{
   flex: none;
 }
@@ -1257,6 +1261,10 @@ video {
 
 .pr-20{
   padding-right: 5rem;
+}
+
+.pr-10{
+  padding-right: 2.5rem;
 }
 
 .text-center{
