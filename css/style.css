@@ -952,6 +952,10 @@ video {
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.overflow-hidden{
+  overflow: hidden;
+}
+
 .rounded-lg{
   border-radius: 0.5rem;
 }

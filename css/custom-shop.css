@@ -23,3 +23,14 @@
 .checkbox-round:checked {
   background-color: gray;
 }
+.product-image {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+.product-image img {
+  min-width: 100%;
+}
+
+.product-image:hover {
+  transform: translateX(-100%);
+}
